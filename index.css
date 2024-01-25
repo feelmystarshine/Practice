@@ -1,0 +1,38 @@
+
+h3{
+    color: blue;
+    font-size: xx-large; 
+    font-style: italic;
+}
+body{
+    background-color: chartreuse;
+    font-size: xx-large;
+    color: black;
+    padding: 50px;
+}
+.outside{
+    color: brown;
+}
+.inner2{
+    color: crimson;
+}
+#books{
+    background-color: midnightblue;
+    color: black;
+    margin-right: 50px;
+    margin-top: 100px;
+    border: 7px solid rgb(4, 0, 255);
+    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 40px;
+    opacity: .2;
+}
+#books:hover{
+    padding: 30px;
+    background-color: cornflowerblue;
+    color: brown;
+    cursor: pointer;
+    opacity: 1;
+}
